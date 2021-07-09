@@ -11,5 +11,10 @@ def index():
 def berfn():
     return "Hello Berfin!"
 
+@app.route('/Ask_mail')
+def Ask_mail():
+    return "Enter your e-mail:"
+
+
 if __name__=='__main__':
     app.run(debug=True)
